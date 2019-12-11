@@ -30,7 +30,7 @@ def stemming(sentence):
     return stemSentence
 
 # Add stop words given from Assignment 5
-csvPath = './AnnotatedHeadlines.csv'
+csvPath = './somesentences.csv'
 stopPath = './stoplist.txt'
 stopList = []
 with open(stopPath, 'r', encoding='utf-8') as f:
